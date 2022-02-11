@@ -1,0 +1,97 @@
+.drag-area {
+  border: 2px dashed black;
+  height: 25vh;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+.drag-area.active {
+  border: 2px solid black;
+}
+.drag-area header {
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
+#section0 {
+  display: show;
+}
+.form-check {
+  display: block;
+}
+.navbar-nav > li {
+  padding-right: 10px;
+}
+
+@media print {
+  body,
+  html,
+  #wrapper {
+    width: 100%;
+  }
+  #section0 {
+    display: none;
+  }
+  #title {
+    display: none;
+  }
+  #header {
+    display: none;
+  }
+  #page-break {
+    page-break-after: always;
+  }
+  #card-img {
+    width: 48%;
+  }
+  .card body {
+    padding: 0rem, 0rem, 0rem, 0rem;
+  }
+  #footer {
+    display: none;
+  }
+  h1 {
+    line-height: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .card-img-top,
+  #patient-info {
+    display: none;
+  }
+  #break {
+    display: none;
+  }
+  #topHeader {
+    padding: 0, 0, 0, 0;
+  }
+  #printBtn {
+    display: none;
+  }
+  label {
+    font-size: 12px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  #page-break1 {
+    display: none;
+  }
+  #risk-card {
+    margin-bottom: 0px;
+  }
+  .input-group-text {
+    font-size: 12px;
+  }
+  #outdoorSelect {
+    font-size: 12px;
+  }
+}
